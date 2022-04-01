@@ -7,4 +7,192 @@ layout: none
 meta:
   description: "Resume data in valid JSON resume format."
 ---
-{{ site.resume | jsonify }}
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Mathieu Desnouveaux",
+    "label": "Senior PHP developper, Sketchnoter",
+    "image": "",
+    "email": "mathieu.desnouveaux@gmail.com",
+    "phone": "",
+    "url": "",
+    "summary": "Actuellement développeur chez Boursorama à Nancy, France, je développe principalement des api en php à destination d’applications web et mobile. J’accompagne les membres de l’équipe et je participe à la relecture collective pour augmenter la qualité du code. \nJe pratique également la facilitation graphique et le sketchnote pour résumer des conférences et partager des savoirs.",
+    "location": {
+      "countryCode": "FR",
+      "address": ""
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "mdesnouveaux",
+        "url": "https://www.linkedin.com/in/mdesnouveaux/"
+      },
+      {
+        "network": "Twitter",
+        "username": "mdesnouveaux",
+        "url": "https://twitter.com/mdesnouveaux"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Boursorama",
+      "position": "ingenieur en développement",
+      "startDate": "2013-09-30",
+      "endDate": "",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/boursorama/",
+      "location": "Nancy, Grand Est, France"
+    },
+    {
+      "name": "Auto-entrepreneur",
+      "position": "Développeur Internet, web designer",
+      "startDate": "2010-12-31",
+      "endDate": "2014-11-30",
+      "highlights": [],
+      "url": "",
+      "location": "Nancy"
+    },
+    {
+      "name": "Adista",
+      "position": "Ingénieur en développement",
+      "startDate": "2010-12-31",
+      "endDate": "2013-08-31",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/adista-rmi/"
+    },
+    {
+      "name": "INRIA",
+      "position": "Ingénieur en développement",
+      "startDate": "2008-09-30",
+      "endDate": "2010-08-31",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/inria/"
+    },
+    {
+      "name": "Phonem communication",
+      "position": "Ingénieur multimédia",
+      "startDate": "2007-02-28",
+      "endDate": "2008-09-30",
+      "highlights": [],
+      "url": ""
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Université Henri Poincaré (Nancy I)",
+      "area": "Communication graphisme pao vidéo multimédia et web",
+      "studyType": "master ini",
+      "startDate": "2006-12-31",
+      "endDate": "2007-12-31",
+      "score": "Major de promotion",
+      "courses": []
+    },
+    {
+      "institution": "Université Nancy 2",
+      "area": "Multimédia graphisme modélisation vidéo",
+      "studyType": "master 1",
+      "startDate": "2005-12-31",
+      "endDate": "2006-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Université Nancy 2",
+      "area": "Informatique de gestion",
+      "studyType": "MIAGE",
+      "startDate": "2002-12-31",
+      "endDate": "2005-12-31",
+      "score": "maitrise",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "Scrum master PSM I",
+      "issuer": "Scrum.org",
+      "startDate": "2019-09-30"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "symfony2",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PHP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MySQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CSS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Sketchnote",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Gestion de projet",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Scrum",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Symfony",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Boursorama",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "fr",
+      "fluency": "Native Speaker"
+    },
+    {
+      "fluency": "Professional Working",
+      "language": "Anglais"
+    },
+    {
+      "fluency": "Native Speaker",
+      "language": "Français"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}
